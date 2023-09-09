@@ -6,6 +6,7 @@ const db = require('./config/connection');
 const { authMiddleware } = require('./utils/auth');
 
 const app = express();
+
 const PORT = process.env.PORT || 3001;
 
 async function startApolloServer() {
